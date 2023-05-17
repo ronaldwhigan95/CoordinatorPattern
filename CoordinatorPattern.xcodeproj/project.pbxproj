@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		F30AE0942A1524AE00BC2722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0932A1524AE00BC2722 /* AppDelegate.swift */; };
 		F30AE0962A1524AE00BC2722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0952A1524AE00BC2722 /* SceneDelegate.swift */; };
-		F30AE0982A1524AE00BC2722 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0972A1524AE00BC2722 /* ViewController.swift */; };
+		F30AE0982A1524AE00BC2722 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0972A1524AE00BC2722 /* FirstViewController.swift */; };
 		F30AE09B2A1524AE00BC2722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AE0992A1524AE00BC2722 /* Main.storyboard */; };
 		F30AE09D2A1524B000BC2722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30AE09C2A1524B000BC2722 /* Assets.xcassets */; };
 		F30AE0A02A1524B000BC2722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AE09E2A1524B000BC2722 /* LaunchScreen.storyboard */; };
+		F30AE0A82A1524BF00BC2722 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0A72A1524BF00BC2722 /* SecondViewController.swift */; };
+		F30AE0AA2A1524C800BC2722 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0A92A1524C800BC2722 /* ThirdViewController.swift */; };
+		F30AE0AC2A15268500BC2722 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0AB2A15268500BC2722 /* Coordinator.swift */; };
+		F30AE0AE2A15292F00BC2722 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0AD2A15292F00BC2722 /* FirstCoordinator.swift */; };
+		F30AE0B12A152A0600BC2722 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE0B02A152A0600BC2722 /* SecondCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F30AE0902A1524AE00BC2722 /* CoordinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30AE0932A1524AE00BC2722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F30AE0952A1524AE00BC2722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F30AE0972A1524AE00BC2722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F30AE0972A1524AE00BC2722 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		F30AE09A2A1524AE00BC2722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F30AE09C2A1524B000BC2722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30AE09F2A1524B000BC2722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30AE0A12A1524B000BC2722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30AE0A72A1524BF00BC2722 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F30AE0A92A1524C800BC2722 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F30AE0AB2A15268500BC2722 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F30AE0AD2A15292F00BC2722 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
+		F30AE0B02A152A0600BC2722 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		F30AE0922A1524AE00BC2722 /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F30AE0AF2A1529F100BC2722 /* Coordinators */,
 				F30AE0932A1524AE00BC2722 /* AppDelegate.swift */,
 				F30AE0952A1524AE00BC2722 /* SceneDelegate.swift */,
-				F30AE0972A1524AE00BC2722 /* ViewController.swift */,
 				F30AE0992A1524AE00BC2722 /* Main.storyboard */,
 				F30AE09C2A1524B000BC2722 /* Assets.xcassets */,
 				F30AE09E2A1524B000BC2722 /* LaunchScreen.storyboard */,
 				F30AE0A12A1524B000BC2722 /* Info.plist */,
+				F30AE0972A1524AE00BC2722 /* FirstViewController.swift */,
+				F30AE0A72A1524BF00BC2722 /* SecondViewController.swift */,
+				F30AE0A92A1524C800BC2722 /* ThirdViewController.swift */,
 			);
 			path = CoordinatorPattern;
+			sourceTree = "<group>";
+		};
+		F30AE0AF2A1529F100BC2722 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE0AB2A15268500BC2722 /* Coordinator.swift */,
+				F30AE0AD2A15292F00BC2722 /* FirstCoordinator.swift */,
+				F30AE0B02A152A0600BC2722 /* SecondCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F30AE0982A1524AE00BC2722 /* ViewController.swift in Sources */,
+				F30AE0AE2A15292F00BC2722 /* FirstCoordinator.swift in Sources */,
+				F30AE0A82A1524BF00BC2722 /* SecondViewController.swift in Sources */,
+				F30AE0B12A152A0600BC2722 /* SecondCoordinator.swift in Sources */,
+				F30AE0982A1524AE00BC2722 /* FirstViewController.swift in Sources */,
+				F30AE0AC2A15268500BC2722 /* Coordinator.swift in Sources */,
+				F30AE0AA2A1524C800BC2722 /* ThirdViewController.swift in Sources */,
 				F30AE0942A1524AE00BC2722 /* AppDelegate.swift in Sources */,
 				F30AE0962A1524AE00BC2722 /* SceneDelegate.swift in Sources */,
 			);
